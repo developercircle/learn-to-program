@@ -11,7 +11,6 @@
 puts 'Dile algo a tu abuelita: '
 comentario=''
 
-
 while comentario != 'BYE'
   anio=rand(1930..1950)
   comentario = gets.chomp
