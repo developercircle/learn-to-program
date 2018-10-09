@@ -6,7 +6,7 @@ oracion = ''
 puts 'Escribe una lista de palabras, separadas por enter, termina con un espacio en blanco y presiona enter'
 
 
-while (oracion = gets.chomp)!= ''
+while (oracion = gets.chomp)!= ' '
 
 
 palabras.push oracion
